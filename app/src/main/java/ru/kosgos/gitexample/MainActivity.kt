@@ -24,6 +24,10 @@ class MainActivity : ComponentActivity() {
                         name = "John",
                         modifier = Modifier.padding(innerPadding)
                     )
+                    Greeting(
+                        name = "Jack",
+                        modifier = Modifier.padding(innerPadding)
+                    )
                 }
             }
         }
